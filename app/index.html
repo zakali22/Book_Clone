@@ -23,21 +23,28 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <nav>
-      <ul>
-        <li>Browse Categories
-          <!-- <ul>
-            <li>Fiction</li>
-          </ul> -->
-        </li>
-        <li class="brand">
-          <a href="#" class="brand">book<strong>worm</strong></a>
-        </li>
-        <li class="search">
-          <input type="search" placeholder="Search books">
-        </li>
-      </ul>
+  <div class="container-fluid">
+    <nav class="navbar">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Browse Categories
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Fiction</a></li>
+              <li><a href="#">Non-Fiction</a></li>
+            </ul>
+          </li>
+          <div class="brand">
+            <a class="navbar-brand" href="/">book <strong>worm</strong></a>
+          </div>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="search">
+            <input type="search" placeholder="Search books">
+          </li>
+       </ul>
     </nav>
+  </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
